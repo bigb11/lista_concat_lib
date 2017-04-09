@@ -70,6 +70,7 @@ struct lista_doppiamente_puntata* cancella_elemento(struct lista_doppiamente_pun
      top->next->prev=tmp->prev;
      top->prev->next=tmp->next;
      printf("\ntop= %d\n", top->info );
+     //sei un mentor
      //printf("\ntop->prev->next = %d", top->prev->next->info);
      //printf("\ntop->next->prev = %d", top->next->prev->info);
    }
